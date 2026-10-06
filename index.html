@@ -14,6 +14,8 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa+One:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- aos animation -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- navbar -->
@@ -46,7 +48,7 @@
             <button class="herobutton">Shop Now</button>
          </div>
          <!-- image -->
-          <div class="heroimage">
+          <div data-aos="flip-left" class="heroimage">
             <img id="furnitureimage" src="./images/fur1.png" alt="No image">
           </div>
       </section>
@@ -56,21 +58,21 @@
          <h2 class="productHead">Our Products</h2>
          <!-- Product Container -->
           <div class="productcontainer">
-            <div class="card">
+            <div data-aos="flip-left" class="card">
                 <img class="cardImg" src="./images/card1.png" alt="No image">
                 <h3 class="productName">Bed</h3>
                 <p class="price">$120</p>
                 <button class="productButton">Buy Now</button>
             </div>
           <!-- card2 -->
-            <div class="card">
+            <div data-aos="flip-left" class="card">
                 <img class="cardImg" src="./images/card2.png" alt="No image">
                 <h3 class="productName">chair</h3>
                 <p class="price">$50</p>
                 <button class="productButton">Buy Now</button>
             </div>
           <!-- card3 -->
-            <div class="card">
+            <div data-aos="flip-left" class="card">
                 <img class="cardImg" src="./images/card3.avif" alt="No image">
                 <h3 class="productName">sofa</h3>
                 <p class="price">$80</p>
@@ -113,4 +115,9 @@
         <p>&copy; Designed by Luminar Technolab, All Rights Reserved 2026</p>
        </footer>
 </body>
+<!-- aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
