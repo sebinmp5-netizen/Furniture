@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <!-- icon setup for tab -->
+     <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMj7cLCe9VAZhLoXjx1_5UqZ8DVTGk_HguvfhkPBjwpdKAT_nPd2E848&s=10">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+     <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Changa+One:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <a class="brand" href="">
+            <i class="fa-solid fa-couch"></i>
+            <span class="brandname">Wood Furniture</span>
+        </a>
+        <!-- checkbox -->
+         <input type="checkbox" id="check">
+         <!-- label -->
+          <label for="check" class="icons">
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <i id="cancelicon" class="fa-regular fa-circle-xmark"></i>
+          </label>
+        <!-- links -->
+         <ul class="navlinks">
+            <li class="links"><a href="#home" class="link">Home</a></li>
+            <li class="links"><a href="#products" class="link">Products</a></li>
+            <li class="links"><a href="#banner" class="link">Aboout</a></li>
+            <li class="links"><a href="#content" class="link">Contacts</a></li>
+         </ul>
+     </nav>
+     <!-- hero section -->
+      <section id="home" class="hero">
+        <!-- text content -->
+         <div class="herotext">
+            <h1 id="herotitle">Modern furniture for your home</h1>
+            <p id="heropara">Discover stylish and comfortable furniture for your living room bedroom and offices.</p>
+            <button class="herobutton">Shop Now</button>
+         </div>
+         <!-- image -->
+          <div class="heroimage">
+            <img id="furnitureimage" src="./images/fur1.png" alt="No image">
+          </div>
+      </section>
+    <!-- product section -->
+     <section id="products" class="products">
+        <!-- heading -->
+         <h2 class="productHead">Our Products</h2>
+         <!-- Product Container -->
+          <div class="productcontainer">
+            <div class="card">
+                <img class="cardImg" src="./images/card1.png" alt="No image">
+                <h3 class="productName">Bed</h3>
+                <p class="price">$120</p>
+                <button class="productButton">Buy Now</button>
+            </div>
+          <!-- card2 -->
+            <div class="card">
+                <img class="cardImg" src="./images/card2.png" alt="No image">
+                <h3 class="productName">chair</h3>
+                <p class="price">$50</p>
+                <button class="productButton">Buy Now</button>
+            </div>
+          <!-- card3 -->
+            <div class="card">
+                <img class="cardImg" src="./images/card3.avif" alt="No image">
+                <h3 class="productName">sofa</h3>
+                <p class="price">$80</p>
+                <button class="productButton">Buy Now</button>
+            </div>
+     </section>
+     <!-- banner -->
+      <section id="banner" class="banner">
+        <!-- heading -->
+         <h2 class="bannerHead">About Us</h2>
+         <p class="bannerPara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At est libero a, inventore architecto alias fugit quidem similique explicabo necessitatibus corporis sit unde ratione ducimus cumque, error quia voluptas maiores!
+         At, reprehenderit eos. Odit distinctio exercitationem at voluptate quaerat laborum doloribus? Deserunt dolores reiciendis tempora nihil officia unde nemo aspernatur, magnam nisi earum doloribus, sed quia itaque quisquam, ut cupiditate.
+         Praesentium quae eligendi laboriosam minus commodi, dolores alias nostrum architecto earum quaerat id obcaecati voluptatibus! Tempore necessitatibus repellat, eum aliquam iusto dolor architecto totam, deleniti veritatis atque illo sed deserunt.</p>
+         <button class="herobutton bannerButton">Let's Talk</button>
+      </section>
+      <!-- footer -->
+       <section id="content" class="content">
+          <!-- text -->
+           <div class="contentText">
+            <h3 class="contentHead">Contact Us</h3>
+            <h4 class="contentPh">+100-69742563</h4>
+            <p class="contentMail">info@gmail.com</p>
+            <!-- icons -->
+             <div class="socialIcons">
+              <a class="smLink" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+              <a class="smLink" href="https://x.com/"><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a class="smLink" href="https://in.pinterest.com"><i class="fa-brands fa-pinterest-p"></i></a>
+             </div>
+           </div>
+           <!-- subscribe -->
+            <div class="subscribe">
+              <h3 class="subscribeHead">Join Our Mail List</h3>
+              <div class="box">
+                <input aria-colspan="subInput" type="text" placeholder="Email" class="subInput">
+                <button class="herobutton subButton">Subscribe</button>
+              </div>
+            </div>
+       </section>
+       <footer class="footer">
+        <p>&copy; Designed by Luminar Technolab, All Rights Reserved 2026</p>
+       </footer>
+</body>
+</html>
